@@ -1,0 +1,14 @@
+.card1{
+    border: 1px solid black;
+    .card1-title{
+        font-size: $fontSizeTitles;
+    }
+}
+
+.bg-student{
+    width: 13.5vw;
+    height: 28vh;
+    background-image: url('https://www.pafa.org/sites/default/files/styles/tile/public/2021-03/IMG_1388.jpg?h=0764f6ae&itok=sF3lFACZ');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

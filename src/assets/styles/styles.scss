@@ -1,0 +1,112 @@
+@import 'variables';
+@import 'general';
+@import 'navigator';
+//importaciones adicionales
+@import 'examplePafa/app';
+@import './formStyles/contactForm';
+
+//Seccion width
+.w-90{
+    width: 95%;
+}
+
+//Seccion margenes
+.my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+//Seccion padding
+
+.py-auto{
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.px-auto{
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.p-auto{
+    padding: auto;
+}
+
+
+//Seccion displays
+.grid{
+    display: grid;
+}
+
+.grid-cols-3{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid-cols-4{
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+.grid-gap-2{
+    gap: 3rem;
+}
+//Seccion contentido
+.content-center{
+    align-items: start;
+    justify-items: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.content-right{
+    align-items: start;
+    justify-items: center;
+    align-self: center;
+    justify-self: end;
+}
+
+.content-left{
+    align-items: start;
+    justify-items: center;
+    align-self: center;
+    justify-self: start;
+}
+
+//Seccion texto
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+//Seccion carta
+
+.card-title{
+
+    font-Size: 1.9rem !important;
+    font-variant-caps: all-small-caps;
+    color: #757374;
+    font-weight: 700;
+}
+.card-description{
+
+    font-Size: 1.2rem !important;
+    color: #231f20;
+    font-style: italic;
+    font-weight: 700;
+}
